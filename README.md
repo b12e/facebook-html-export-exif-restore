@@ -28,9 +28,9 @@ python3: Should be pre-installed on most systems
 
 Features:
 
-Multi-language support: The parser handles Dutch and English dates. Untested with other languages.
-Recursive search: Finds photos even if they're in subdirectories
-HTML parsing: Extracts timestamps from the _2lem class divs in the HTML
-Backup option: Use `-b` to create a backup before processing
+- Multi-language support: The parser handles Dutch and English dates. Untested with other languages.
+- Recursive search: Finds photos even if they're in subdirectories
+- HTML parsing: Extracts timestamps from the _2lem class divs in the HTML
+- Backup option: Use `-b` to create a backup before processing
 
 The script will process both the main your_photos.html file and any album HTML files it finds, matching each photo to its timestamp and adding the appropriate EXIF data.
