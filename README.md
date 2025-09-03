@@ -10,7 +10,8 @@ Place the bash script in your `photos_and_videos` folder and make sure to make i
 
 Then run the script using `./exif.sh`, optionally with the `-b` parameter if you need a backup. 
 
-With a bit of luck, you'll see output like ths:
+With a bit of luck, you'll see output like this:
+
 <img width="556" height="451" alt="image" src="https://github.com/user-attachments/assets/0d3e4635-43d6-4fa8-a211-a337a15196c9" />
 
 
