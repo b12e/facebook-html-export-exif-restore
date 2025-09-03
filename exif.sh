@@ -280,6 +280,9 @@ for filename, timestamp in data.items():
         fi
     done
     
+    # Read final stats
+    read total_photos processed_photos failed_photos < "$stats_file"
+    
     # Summary
     echo ""
     echo "================================"
@@ -287,6 +290,9 @@ for filename, timestamp in data.items():
     echo "  Total photos found: $total_photos"
     echo "  Successfully processed: $processed_photos"
     echo "  Failed: $failed_photos"
+    
+    # Cleanup temp file
+    rm -f "$stats_file"
 }
 
 # Parse command line arguments
